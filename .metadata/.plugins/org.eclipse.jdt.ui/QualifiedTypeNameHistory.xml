@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.nio.file.attribute.PosixFileAttributes"/>
-<fullyQualifiedTypeName name="javax.sound.sampled.AudioFormat"/>
-<fullyQualifiedTypeName name="java.io.RandomAccessFile"/>
-<fullyQualifiedTypeName name="monday.fileutils.FileUtils"/>
-<fullyQualifiedTypeName name="ucar.ma2.ArrayDouble.D3.IF"/>
-<fullyQualifiedTypeName name="java.nio.file.StandardCopyOption"/>
 <fullyQualifiedTypeName name="java.nio.charset.StandardCharsets"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.Base64"/>
 <fullyQualifiedTypeName name="org.apache.commons.codec.binary.Base64"/>
 <fullyQualifiedTypeName name="java.nio.charset.CharsetDecoder"/>
@@ -48,9 +41,7 @@
 <fullyQualifiedTypeName name="monday.mp3organizer.organizer.Id3TagExtractor"/>
 <fullyQualifiedTypeName name="monday.filedatacompression.WordWrapper"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.nio.file.Path"/>
-<fullyQualifiedTypeName name="java.nio.file.Files"/>
 <fullyQualifiedTypeName name="monday.filedatacompression.FileManager"/>
 <fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
 <fullyQualifiedTypeName name="monday.filedatacompression.WordsContainer"/>
@@ -60,4 +51,13 @@
 <fullyQualifiedTypeName name="monday.filedatacompression.WordsContainer.WordManager"/>
 <fullyQualifiedTypeName name="monday.filedatacompression.WordsContainer.TextManager"/>
 <fullyQualifiedTypeName name="week5.friday.bank.exception.AgeException"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.nio.file.Files"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.nio.file.Paths"/>
+<fullyQualifiedTypeName name="week7.randomnames.RandomNames.Names"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="week7.randomnames.RandomNames"/>
+<fullyQualifiedTypeName name="week7.randomnames.RandomNames.Pair"/>
 </qualifiedTypeNameHistroy>
