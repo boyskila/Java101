@@ -45,7 +45,7 @@ public class RandomNames {
 
 		@Override
 		public String toString() {
-			return "Pair [nameA=" + nameA + ", nameB=" + nameB + "]";
+			return nameA + " <===> " + nameB;
 		}
 
 	}
