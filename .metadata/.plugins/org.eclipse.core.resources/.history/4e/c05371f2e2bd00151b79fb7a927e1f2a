@@ -1,0 +1,17 @@
+package week5.friday.bank.enums;
+
+public enum OperationType {
+	ADD(0.0, " was added to your account"), WITHDRAW(), TRANSFER(), SHOW_HISTORY(), CHECK_BALANCE(), CALCULATE_AMOUNT(), LOGOUT();
+	// private final double money;
+	private final String message;
+	private double money;
+
+	OperationType() {
+		message = "";
+	}
+
+	OperationType(double money, String message) {
+		this.message = money + message;
+	}
+
+}

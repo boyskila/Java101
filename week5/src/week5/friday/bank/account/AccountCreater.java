@@ -19,7 +19,6 @@ public class AccountCreater {
 	}
 
 	public boolean createAccount() throws InvalidNameException, AgeException {
-
 		fillFirstName();
 		fillLastName();
 		fillAge();

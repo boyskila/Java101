@@ -12,6 +12,13 @@ import week5.friday.bank.util.MessageConstants;
 public class BankAccount implements Serializable {
 
 	private static final long serialVersionUID = 1L;
+	private double money;
+	private long id;
+	private String password;
+	private Person person;
+	private Interest interest;
+	private History history;
+	private List<History> accountHistory;
 
 	public class History implements Serializable {
 		private static final long serialVersionUID = 8743656606584303715L;
@@ -23,49 +30,20 @@ public class BankAccount implements Serializable {
 		public History(OperationType operationType, double money) {
 			addedOrTransferedMoney = money;
 			this.operationType = operationType;
-			setMessage();
+			message = addedOrTransferedMoney + operationType.getMessage();
 		}
 
-		public History(BankAccount account, OperationType operationType,
-				double money) {
+		public History(BankAccount account, OperationType operationType, double money) {
 			transferAccount = account;
 			addedOrTransferedMoney = money;
 			this.operationType = operationType;
-			setMessage();
+			message = addedOrTransferedMoney + operationType.getMessage() + transferAccount.getPerson();
 		}
 
 		public String getMessage() {
 			return message;
 		}
-
-		public void setMessage() {
-			switch (operationType) {
-			case ADD:
-				message = addedOrTransferedMoney + " was added to your account";
-				break;
-			case WITHDRAW:
-				message = addedOrTransferedMoney
-						+ " was withdrawn from your account";
-				break;
-			case TRANSFER:
-				message = addedOrTransferedMoney
-						+ " was transfered from your account to this "
-						+ transferAccount.getPerson();
-				break;
-			default:
-				break;
-			}
-		}
 	}
-
-	private long ID;
-	private String password;
-	private double money;
-
-	private Person person;
-	private Interest interest;
-	private History history;
-	private List<History> accountHistory;
 
 	public BankAccount(Person person) {
 		this.person = person;
@@ -118,11 +96,11 @@ public class BankAccount implements Serializable {
 	}
 
 	public Long getID() {
-		return ID;
+		return id;
 	}
 
-	public void setID(Long iD) {
-		ID = iD;
+	public void setID(Long id) {
+		this.id = id;
 	}
 
 	public void showHistory() {
@@ -130,8 +108,7 @@ public class BankAccount implements Serializable {
 			System.err.println("History is empty");
 		} else {
 			for (History history : accountHistory) {
-				System.out.println(history.operationType + ":"
-						+ history.getMessage());
+				System.out.println(history.operationType + ":" + history.getMessage());
 			}
 		}
 	}
@@ -153,7 +130,6 @@ public class BankAccount implements Serializable {
 
 	@Override
 	public String toString() {
-		return "BankAccount [ID=" + getID() + " " + getPerson() + " "
-				+ interest + ", money=" + money + "]";
+		return "BankAccount [ID=" + getID() + " " + getPerson() + " " + interest + ", money=" + money + "]";
 	}
 }

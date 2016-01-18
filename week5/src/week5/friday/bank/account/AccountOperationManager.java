@@ -10,7 +10,6 @@ import week5.friday.bank.util.MessageConstants;
 public class AccountOperationManager {
 	private ScannerClass sc = new ScannerClass();
 	private AccountSession accountSession;
-
 	public AccountOperationManager(AccountSession session) {
 		accountSession = session;
 	}
@@ -50,3 +49,4 @@ public class AccountOperationManager {
 		return true;
 	}
 }
+

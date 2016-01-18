@@ -19,7 +19,7 @@ public class OnlineBanking {
 		try {
 			account = accessManager.createAccountOrLogin();
 		} catch (AgeException ageException) {
-			ageException.printStackTrace();
+			new AgeException("Invalid age parameter");
 		} catch (InvalidNameException nameException) {
 			nameException.printStackTrace();
 		} catch (IllegalAccessException nameException) {
