@@ -9,7 +9,6 @@ public class Task33_SmsDecoder {
 	/*
 	 * Condition at:
 	 * https://github.com/HackBulgaria/Programming101-Java/tree/master/week01
-	 * 
 	 */
 	static final String[] BUTTONS = { " ", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
 
