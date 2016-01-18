@@ -18,8 +18,7 @@ public class Interest implements Serializable {
 	}
 
 	private double calculateSimpleInterest(double forPeriod) {
-		double total = account.getMoney()
-				* Math.pow(1 + ((interestValue / 100) / 12), (12 * forPeriod));
+		double total = account.getMoney() * Math.pow(1 + ((interestValue / 100) / 12), (12 * forPeriod));
 		return total - account.getMoney();
 	}
 
@@ -52,7 +51,6 @@ public class Interest implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Interest [type=" + type + ", interestValue=" + interestValue
-				+ "]" + "added testBranch";
+		return "Interest [type=" + type + ", interestValue=" + interestValue + "]";
 	}
 }
