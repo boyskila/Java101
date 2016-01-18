@@ -1,3 +1,5 @@
+//Use more descriptive names and write comments
+
 package week7.randomnames;
 
 import java.io.IOException;
