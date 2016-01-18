@@ -1,9 +1,0 @@
-package week5.wednesday.binarytree;
-
-public class PrintTree {
-	BinaryTree.Node root;
-
-	public PrintTree(BinaryTree.Node root) {
-		this.root = root;
-	}
-}

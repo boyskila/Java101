@@ -1,5 +1,0 @@
-package week5.friday.bank.enums;
-
-public enum OperationType {
-	ADD, WITHDRAW, TRANSFER, SHOW_HISTORY, LOGOUT
-}

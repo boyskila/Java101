@@ -1,9 +1,0 @@
-package week5.wednesday.binarytree;
-
-public class NodeChecker {
-	private BinaryTree tree;
-
-	public NodeChecker(BinaryTree tree) {
-		this.tree = tree;
-	}
-}

@@ -1,5 +1,0 @@
-package week5.friday.bank.exception;
-
-public class InvalidNameException extends Exception{
-
-}

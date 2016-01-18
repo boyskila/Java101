@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.nio.file.Paths"/>
 <fullyQualifiedTypeName name="java.nio.file.attribute.PosixFileAttributes"/>
 <fullyQualifiedTypeName name="javax.sound.sampled.AudioFormat"/>
 <fullyQualifiedTypeName name="java.io.RandomAccessFile"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="monday.filedatacompression.WordsContainer.WordManager"/>
 <fullyQualifiedTypeName name="monday.filedatacompression.WordsContainer.TextManager"/>
+<fullyQualifiedTypeName name="week5.friday.bank.exception.AgeException"/>
 </qualifiedTypeNameHistroy>

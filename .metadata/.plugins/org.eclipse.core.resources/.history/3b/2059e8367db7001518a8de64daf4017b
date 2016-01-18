@@ -1,8 +1,0 @@
-package week5.friday.bank.interfaces;
-
-public interface AccountSetupOperations {
-
-	public boolean createAccount();
-
-	public boolean login();
-}

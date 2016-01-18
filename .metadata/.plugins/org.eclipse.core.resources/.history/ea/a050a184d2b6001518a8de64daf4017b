@@ -1,8 +1,0 @@
-package week5.friday.bank.account;
-
-import week5.friday.bank.interfaces.AccountOperations.OperationType;
-
-public class OperationHistory {
-	private OperationType operationType;
-	private String message;
-}

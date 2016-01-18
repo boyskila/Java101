@@ -1,7 +1,0 @@
-package week5.wednesday.binarytree;
-
-public class PrintTree {
-	public PrintTree(BinaryTree.Node root) {
-		// TODO Auto-generated constructor stub
-	}
-}
