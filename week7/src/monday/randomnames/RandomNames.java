@@ -1,15 +1,11 @@
 package monday.randomnames;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 public class RandomNames {
-	private class Pair {
+	public class Pair {
 		Person nameA;
 		Person nameB;
 
@@ -50,11 +46,7 @@ public class RandomNames {
 
 	}
 
-	public static List<String> readFile(Path path) throws IOException {
-		return Files.readAllLines(path);
-	}
-
-	public static List<Person> getNames(List<String> names) {
+	public List<Person> getNames(List<String> names) {
 		List<Person> persons = new ArrayList<>();
 		for (String name : names) {
 			String[] nam = name.split(", ");
@@ -65,13 +57,5 @@ public class RandomNames {
 
 		}
 		return persons;
-	}
-
-	public static void main(String[] args) throws IOException {
-		List<Person> persons = getNames(readFile(Paths.get("names")));
-		List<Pair> pairs = new RandomNames().new Pair().organizePairs(persons);
-		for (Pair pair : pairs) {
-			System.out.println(pair);
-		}
 	}
 }
