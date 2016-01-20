@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.nio.charset.StandardCharsets"/>
 <fullyQualifiedTypeName name="java.util.Base64"/>
 <fullyQualifiedTypeName name="org.apache.commons.codec.binary.Base64"/>
 <fullyQualifiedTypeName name="java.nio.charset.CharsetDecoder"/>
@@ -51,7 +50,6 @@
 <fullyQualifiedTypeName name="monday.filedatacompression.WordsContainer.WordManager"/>
 <fullyQualifiedTypeName name="monday.filedatacompression.WordsContainer.TextManager"/>
 <fullyQualifiedTypeName name="week5.friday.bank.exception.AgeException"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.nio.file.Files"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
 <fullyQualifiedTypeName name="java.nio.file.Paths"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="week7.randomnames.RandomNames"/>
 <fullyQualifiedTypeName name="week7.randomnames.RandomNames.Pair"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>

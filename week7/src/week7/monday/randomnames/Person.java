@@ -1,4 +1,4 @@
-package week7.randomnames;
+package week7.monday.randomnames;
 
 public class Person {
 	private String firstName;

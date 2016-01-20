@@ -1,9 +1,0 @@
-package monday.filedatacompression;
-
-import java.nio.file.Paths;
-
-public class Main {
-	public static void main(String[] args) {
-		FileDataCompression.compress(Paths.get("compressionTest.txt"));
-	}
-}

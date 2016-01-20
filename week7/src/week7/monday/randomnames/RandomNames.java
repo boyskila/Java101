@@ -1,6 +1,6 @@
 //Use more descriptive names and write comments
 
-package week7.randomnames;
+package week7.monday.randomnames;
 
 import java.io.IOException;
 import java.nio.file.Files;
