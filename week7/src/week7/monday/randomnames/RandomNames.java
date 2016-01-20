@@ -1,5 +1,3 @@
-//Use more descriptive names and write comments
-
 package week7.monday.randomnames;
 
 import java.io.IOException;
@@ -25,20 +23,22 @@ public class RandomNames {
 			this.nameB = nameB;
 		}
 
-		public List<Pair> organizePairs(List<Person> list) {
+		public List<Pair> organizePairs(List<Person> persons) {
+			int randomNumber = 0;
 			Random rand = new Random();
 			List<Pair> pairs = new ArrayList<>();
-			if (list.size() % 2 != 0) {
-				int num = rand.nextInt(list.size());
-				pairs.add(new RandomNames().new Pair(list.remove(num), null));
+			if (persons.size() % 2 != 0) {
+				randomNumber = rand.nextInt(persons.size());
+				pairs.add(new RandomNames().new Pair(persons
+						.remove(randomNumber), null));
 			}
-			while (!list.isEmpty()) {
-				int size = list.size();
-				int num = rand.nextInt(size);
-				Person nameA = list.remove(num);
-				num = rand.nextInt(list.size());
-				Person nameB = list.remove(num);
-				pairs.add(new RandomNames().new Pair(nameA, nameB));
+			while (!persons.isEmpty()) {
+				int size = persons.size();
+				randomNumber = rand.nextInt(size);
+				Person personA = persons.remove(randomNumber);
+				randomNumber = rand.nextInt(persons.size());
+				Person personB = persons.remove(randomNumber);
+				pairs.add(new RandomNames().new Pair(personA, personB));
 			}
 			return pairs;
 		}
@@ -55,21 +55,21 @@ public class RandomNames {
 	}
 
 	public static List<Person> getNames(List<String> names) {
-		List<Person> name = new ArrayList<>();
-		for (String names2 : names) {
-			String[] nam = names2.split(", ");
+		List<Person> persons = new ArrayList<>();
+		for (String name : names) {
+			String[] nam = name.split(", ");
 			for (int i = 0; i < nam.length; i++) {
-				String[] n = nam[i].split(" ");
-				name.add(new Person(n[0], n[1]));
+				String[] fullName = nam[i].split(" ");
+				persons.add(new Person(fullName[0], fullName[1]));
 			}
 
 		}
-		return name;
+		return persons;
 	}
 
 	public static void main(String[] args) throws IOException {
-		List<Person> list = getNames(readFile(Paths.get("names")));
-		List<Pair> pairs = new RandomNames().new Pair().organizePairs(list);
+		List<Person> persons = getNames(readFile(Paths.get("names")));
+		List<Pair> pairs = new RandomNames().new Pair().organizePairs(persons);
 		for (Pair pair : pairs) {
 			System.out.println(pair);
 		}
