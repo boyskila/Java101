@@ -1,4 +1,4 @@
-package week7.wednesday.downloadfile;
+package wednesday.downloadfile;
 
 import java.awt.image.BufferedImage;
 import java.io.File;

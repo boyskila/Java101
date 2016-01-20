@@ -1,4 +1,4 @@
-package week7.monday.randomnames;
+package monday.randomnames;
 
 import java.io.IOException;
 import java.nio.file.Files;

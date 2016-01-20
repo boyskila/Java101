@@ -1,4 +1,4 @@
-package week7.wednesday.webcrawer;
+package wednesday.webcrawer;
 
 import java.util.ArrayList;
 import java.util.HashSet;

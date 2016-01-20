@@ -1,15 +1,15 @@
-package week7.wednesday.webcrawer;
+package wednesday.webcrawer;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Webcrawler {
+public class WebSiteCrawler {
 	private String needle;
 	private String url;
 	private Queue<String> toVisit;
 	private DocumentCrawler documentCrawler;
 
-	public Webcrawler(String url, String needle) {
+	public WebSiteCrawler(String url, String needle) {
 		super();
 		toVisit = new LinkedList<>();
 		// add input URL

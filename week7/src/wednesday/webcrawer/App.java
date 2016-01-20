@@ -1,4 +1,4 @@
-package week7.wednesday.webcrawer;
+package wednesday.webcrawer;
 
 public class App {
 	private final static String WEB = "http://ebusiness.free.bg/";
@@ -8,7 +8,7 @@ public class App {
 	// private static final String NEEDLE = "Бойко";
 
 	public static void main(String[] args) {
-		Webcrawler spider = new Webcrawler(WEB, NEEDLE);
+		WebSiteCrawler spider = new WebSiteCrawler(WEB, NEEDLE);
 		spider.search();
 	}
 }

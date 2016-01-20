@@ -11142,3 +11142,19 @@ java.io.InvalidClassException: org.eclipse.m2e.core.internal.project.registry.Ba
 2016-01-21 01:00:11,307 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/boyko/886459336459256A/101workspace/week7/src/main/resources
 2016-01-21 01:00:11,307 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-01-21 01:00:11,308 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/boyko/886459336459256A/101workspace/week7/src/test/resources
+2016-01-21 01:06:13,052 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:06:13,053 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/boyko/886459336459256A/101workspace/week7/src/main/resources
+2016-01-21 01:06:13,054 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:06:13,055 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/boyko/886459336459256A/101workspace/week7/src/test/resources
+2016-01-21 01:06:26,087 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:06:26,088 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/boyko/886459336459256A/101workspace/week7/src/main/resources
+2016-01-21 01:06:26,089 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:06:26,090 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/boyko/886459336459256A/101workspace/week7/src/test/resources
+2016-01-21 01:06:38,876 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:06:38,877 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/boyko/886459336459256A/101workspace/week7/src/main/resources
+2016-01-21 01:06:38,878 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:06:38,878 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/boyko/886459336459256A/101workspace/week7/src/test/resources
+2016-01-21 01:07:23,759 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:07:23,760 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/boyko/886459336459256A/101workspace/week7/src/main/resources
+2016-01-21 01:07:23,760 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:07:23,761 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/boyko/886459336459256A/101workspace/week7/src/test/resources
