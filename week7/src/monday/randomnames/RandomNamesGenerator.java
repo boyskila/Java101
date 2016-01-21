@@ -4,7 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class RandomNames {
+public class RandomNamesGenerator {
+	List<Pair> pairs;
+
+	public RandomNamesGenerator() {
+		pairs = new ArrayList<>();
+	}
+
 	public class Pair {
 		Person nameA;
 		Person nameB;
@@ -22,10 +28,9 @@ public class RandomNames {
 		public List<Pair> organizePairs(List<Person> persons) {
 			int randomNumber = 0;
 			Random rand = new Random();
-			List<Pair> pairs = new ArrayList<>();
 			if (persons.size() % 2 != 0) {
 				randomNumber = rand.nextInt(persons.size());
-				pairs.add(new RandomNames().new Pair(persons
+				pairs.add(new RandomNamesGenerator().new Pair(persons
 						.remove(randomNumber), null));
 			}
 			while (!persons.isEmpty()) {
@@ -34,7 +39,7 @@ public class RandomNames {
 				Person personA = persons.remove(randomNumber);
 				randomNumber = rand.nextInt(persons.size());
 				Person personB = persons.remove(randomNumber);
-				pairs.add(new RandomNames().new Pair(personA, personB));
+				pairs.add(new RandomNamesGenerator().new Pair(personA, personB));
 			}
 			return pairs;
 		}
@@ -57,5 +62,11 @@ public class RandomNames {
 
 		}
 		return persons;
+	}
+
+	public void printPairs() {
+		for (Pair pair : pairs) {
+			System.out.println(pair);
+		}
 	}
 }
