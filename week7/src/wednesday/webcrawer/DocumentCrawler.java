@@ -20,7 +20,7 @@ public class DocumentCrawler {
 		links = new ArrayList<>();
 	}
 
-	// Read content and extract all links from <a> tag's
+	// Read content and extract all links from <a> tag's using JSOUP
 	public void extractLinks(String url) {
 		try {
 			Connection connection = Jsoup.connect(url);
@@ -29,7 +29,7 @@ public class DocumentCrawler {
 			for (Element link : linksOnPage) {
 				String href = link.absUrl("href");
 				// check for duplicates and whether is outside of scope
-				if (!visited.contains(href) && href.contains(url)) {
+				if (!visited.contains(href)) {
 					links.add(href);
 				}
 				visited.add(href);
