@@ -17,6 +17,7 @@ public class IncrementInteger {
 			public void run() {
 				for (int i = 0; i < 2_000_000; i++) {
 					counter.incrementAndGet();
+					// increment();
 				}
 
 			}
@@ -26,6 +27,7 @@ public class IncrementInteger {
 			public void run() {
 				for (int i = 0; i < 2_000_000; i++) {
 					counter.incrementAndGet();
+					// increment();
 				}
 
 			}
