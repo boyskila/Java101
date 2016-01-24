@@ -1,9 +1,0 @@
-package monday.mp3organizer;
-
-public class Mp3MetaDataNormalizer {
-	private Mp3Metadata data;
-
-	public Mp3MetaDataNormalizer(Mp3Metadata data) {
-		this.data = data;
-	}
-}
