@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.apache.tika.parser.Parser"/>
-<fullyQualifiedTypeName name="org.apache.tika.parser.mp3.Mp3Parser"/>
 <fullyQualifiedTypeName name="org.apache.tika.metadata.Metadata"/>
 <fullyQualifiedTypeName name="org.xml.sax.ContentHandler"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="javax.json.JsonReader"/>
 <fullyQualifiedTypeName name="javax.json.Json"/>
 <fullyQualifiedTypeName name="javax.json.JsonObject"/>
+<fullyQualifiedTypeName name="sun.net.www.URLConnection"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 </qualifiedTypeNameHistroy>
