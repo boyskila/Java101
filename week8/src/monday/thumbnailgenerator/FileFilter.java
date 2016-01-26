@@ -5,7 +5,7 @@ import java.io.FilenameFilter;
 
 public class FileFilter implements FilenameFilter {
 
-	private enum Extensions {
+	public enum Extensions {
 		GIF, PNG, JPG, BMP
 	}
 

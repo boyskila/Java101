@@ -1,13 +1,13 @@
 package monday.producerconsumer;
 
-import monday.producerconsumer.Factory.ConsumingType;
+import monday.producerconsumer.SyncValueStorage.ConsumingType;
 
 public class ConsumerThread extends Thread {
 
-	private final Factory<Integer> sharedQueue;
+	private final SyncValueStorage<Integer> sharedQueue;
 	private ConsumingType consumingType;
 
-	public ConsumerThread(Factory<Integer> sharedQueue, ConsumingType consumingType) {
+	public ConsumerThread(SyncValueStorage<Integer> sharedQueue, ConsumingType consumingType) {
 		this.sharedQueue = sharedQueue;
 		this.consumingType = consumingType;
 

@@ -1,13 +1,12 @@
 package monday.thumbnailgenerator;
 
-import java.awt.image.BufferedImage;
 import java.util.LinkedList;
 
-public class BlockingQueue<BufferedImage> {
-	private LinkedList<BufferedImage> queue = new LinkedList<>();
+public class BlockingQueue<T> {
+	private LinkedList<T> queue = new LinkedList<>();
 	private static final int LIMIT = 10;
 
-	public synchronized void addLast(BufferedImage item) throws InterruptedException {
+	public synchronized void addLast(T item) throws InterruptedException {
 		while (isLimit()) {
 			wait();
 		}
@@ -17,7 +16,7 @@ public class BlockingQueue<BufferedImage> {
 		this.queue.addLast(item);
 	}
 
-	public synchronized BufferedImage removeFirst() throws InterruptedException {
+	public synchronized T removeFirst() throws InterruptedException {
 		while (isEmpty()) {
 			wait();
 		}
@@ -33,8 +32,6 @@ public class BlockingQueue<BufferedImage> {
 	}
 
 	public boolean isEmpty() {
-		// TODO Auto-generated method stub
 		return queue.isEmpty();
 	}
-
 }

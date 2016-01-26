@@ -3,9 +3,9 @@ package monday.producerconsumer;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class ProducerThread extends Thread {
-	private final Factory<Integer> sharedQueue;
+	private final SyncValueStorage<Integer> sharedQueue;
 
-	public ProducerThread(Factory<Integer> sharedQueue) {
+	public ProducerThread(SyncValueStorage<Integer> sharedQueue) {
 		this.sharedQueue = sharedQueue;
 	}
 

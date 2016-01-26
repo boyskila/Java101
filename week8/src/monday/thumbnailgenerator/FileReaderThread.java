@@ -21,7 +21,7 @@ public class FileReaderThread extends Thread {
 		collectImages();
 	}
 
-	private void collectImages() {
+	public void collectImages() {
 		if (file.isDirectory()) {
 			for (File f : file.listFiles(FILE_FILTER)) {
 				try {
