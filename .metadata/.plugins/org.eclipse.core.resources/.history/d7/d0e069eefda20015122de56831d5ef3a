@@ -1,9 +1,0 @@
-package com.boyko.vat.test;
-
-import com.boyko.vat.database.CountryDatabase;
-
-public class VatCalculatorTest {
-	public static void main(String[] args) {
-VatCalculator vatcalc = new VatCalculator(new CountryDatabase());
-	}
-}

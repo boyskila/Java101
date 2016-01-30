@@ -3,6 +3,7 @@ package monday.thumbnailgenerator;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.Map;
 
 import javax.imageio.ImageIO;
 
@@ -11,35 +12,28 @@ import org.imgscalr.Scalr.Method;
 import org.imgscalr.Scalr.Mode;
 
 public class ThumbnailGenerator {
-	private File file;
 	private int height;
 	private int width;
-	private BlockingQueue<BufferedImage> queue;
-	private volatile boolean QUIT = true;
+	private Map<BufferedImage, File> map;
 
-	public ThumbnailGenerator(BlockingQueue<BufferedImage> queue, File file, int height, int width) {
+	public ThumbnailGenerator(Map<BufferedImage, File> queue, int height, int width) {
 		super();
-		this.file = file;
 		this.height = height;
 		this.width = width;
-		this.queue = queue;
+		this.map = queue;
 	}
 
-	public void createThummnails() throws IOException, InterruptedException {
-		File thumbnailsDir = new File(file.getAbsolutePath() + "/thumbnails");
-		thumbnailsDir.mkdirs();
+	public void createThumbnails() throws IOException, InterruptedException {
 		int count = 0;
-		while (QUIT) {
-			BufferedImage image = queue.removeFirst();
-			File thumbnail = new File(thumbnailsDir + "/img" + count++);
+		for (Map.Entry<BufferedImage, File> entry : map.entrySet()) {
+			System.out.println(entry.getValue());
+			BufferedImage image = entry.getKey();
+			File path = entry.getValue();
+			File thumbnail = new File(path + "/img" + count++);
 			System.out.println(thumbnail.getAbsolutePath());
 			BufferedImage thumbImg = Scalr.resize(image, Method.QUALITY, Mode.AUTOMATIC, height, width,
 					Scalr.OP_ANTIALIAS);
 			ImageIO.write(thumbImg, "png", thumbnail);
 		}
-	}
-
-	public void setQuit(boolean flag) {
-		this.QUIT = flag;
 	}
 }

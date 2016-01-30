@@ -1,7 +1,0 @@
-package wednesday.cryptoanalysis.util;
-
-public class InglishLettersStatistic {
-	public static final char[] LETTERS = { 'e', 't', 'a', 'o', 'i', 's', 'h',
-			'r', 'd', 'l', 'c', 'u', 'w', 'f', 'g', 'y', 'p', 'b', 'v', 'j',
-			'x', 'q', 'z' };
-}

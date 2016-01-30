@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete 3 elements from project &apos;Interview&apos;&#x0A;- Original project: &apos;Interview&apos;&#x0A;- Original elements:&#x0A;     Panda.java&#x0A;     Pandable.java&#x0A;     Strings.java" description="Delete elements" element1="/src&lt;{Pandable.java" element2="/src&lt;{Strings.java" element3="/src&lt;{Panda.java" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1449593101332" subPackages="false" version="1.0"/>
-</session>

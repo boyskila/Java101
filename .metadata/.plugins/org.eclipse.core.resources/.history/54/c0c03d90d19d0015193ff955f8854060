@@ -1,7 +1,0 @@
-package com.boyko.polinom;
-
-public class PolinomSolver {
-	public static void main(String[] args) {
-		System.out.println(new PolinomParser("x5+2x^4+3x^3+x+1").parse());
-	}
-}

@@ -29,10 +29,6 @@ public class SyncValueStorage<T> {
 		return null;
 	}
 
-	public synchronized T pollLast() throws InterruptedException {
-		return blockingQueue.removeLast();
-	}
-
 	protected boolean isEmpty() {
 		return blockingQueue.isEmpty();
 	}

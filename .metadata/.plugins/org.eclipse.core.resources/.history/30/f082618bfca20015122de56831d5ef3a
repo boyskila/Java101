@@ -1,5 +1,0 @@
-package com.boyko.vat.exceptions;
-
-public class CountryNotFoundException {
-
-}
