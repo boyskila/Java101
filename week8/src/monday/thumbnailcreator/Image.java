@@ -21,11 +21,16 @@ public class Image {
 		try {
 			this.image = ImageIO.read(file);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+
 		this.width = width;
 		this.height = height;
+	}
+
+	public BufferedImage readImage() throws IOException {
+		return image;
+
 	}
 
 	public String getPath() {
@@ -36,18 +41,21 @@ public class Image {
 		return image;
 	}
 
-	@Override
-	public String toString() {
-		return "Image [path=" + path + ", pathToCopy=" + getPathToCopy()
-				+ ", image=" + image + "]";
-	}
-
 	public String getPathToCopy() {
 		return pathToCopy;
 	}
 
 	public void setPathToCopy(String pathToCopy) {
 		this.pathToCopy = pathToCopy;
-		new File(pathToCopy).mkdir();
+		File f = new File(pathToCopy);
+		if (!f.exists()) {
+			f.mkdir();
+		}
+	}
+
+	@Override
+	public String toString() {
+		return "Image [path=" + path + ", pathToCopy=" + getPathToCopy()
+				+ ", image=" + image + "]";
 	}
 }
