@@ -15,8 +15,10 @@ public class Main {
 		int thumbnailWidth = commandLineArgs.getWidth();
 		int thumbnailHeight = commandLineArgs.getHeight();
 		boolean recursiveOption = commandLineArgs.isRecursiveOption();
+		long start = System.currentTimeMillis();
 		new ThumbnailCreator(thumbnailWidth, thumbnailHeight, recursiveOption)
 				.createThumbnails(filePath);
+		System.out.println(System.currentTimeMillis() - start);
 		sc.close();
 	}
 }

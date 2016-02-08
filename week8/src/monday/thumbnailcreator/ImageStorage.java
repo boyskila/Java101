@@ -1,13 +1,12 @@
 package monday.thumbnailcreator;
 
-import java.util.concurrent.BlockingDeque;
-import java.util.concurrent.LinkedBlockingDeque;
+import java.util.LinkedList;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @SuppressWarnings("hiding")
 public class ImageStorage<Image> {
 	AtomicInteger count = new AtomicInteger(0);
-	private BlockingDeque<Image> images = new LinkedBlockingDeque<>();
+	private LinkedList<Image> images = new LinkedList<>();
 	private volatile boolean isEmpty;
 
 	private static ImageStorage<?> instance = null;
@@ -27,7 +26,9 @@ public class ImageStorage<Image> {
 	}
 
 	public void putImage(Image image) {
-		images.addLast(image);
+		synchronized (this) {
+			images.addLast(image);
+		}
 	}
 
 	public Image getImage() {

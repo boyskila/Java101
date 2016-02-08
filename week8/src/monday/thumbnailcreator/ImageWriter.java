@@ -10,13 +10,13 @@ import org.imgscalr.Scalr;
 import org.imgscalr.Scalr.Method;
 import org.imgscalr.Scalr.Mode;
 
-public class ImageWriterThread implements Runnable {
+public class ImageWriter implements Runnable {
 	private ImageStorage<Image> storage;
 	private Thread producer;
 	private int thumbnailWidth;
 	private int thumbnailHeight;
 
-	public ImageWriterThread(ImageStorage<Image> storage, Thread producer,
+	public ImageWriter(ImageStorage<Image> storage, Thread producer,
 			int thumbnailWidth, int thumbnailHeight) {
 		super();
 		this.storage = storage;
@@ -35,6 +35,7 @@ public class ImageWriterThread implements Runnable {
 	}
 
 	public void createThumbnail() {
+
 		Image img = storage.getImage();
 		BufferedImage thumbImg = Scalr.resize(img.getImage(), Method.QUALITY,
 				Mode.AUTOMATIC, thumbnailWidth, thumbnailHeight,

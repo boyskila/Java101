@@ -4,7 +4,8 @@ import java.io.File;
 
 public class ThumbnailCreator {
 	@SuppressWarnings("unchecked")
-	private static ImageStorage<Image> storage = (ImageStorage<Image>) ImageStorage.getInstance();
+	private static ImageStorage<Image> storage = (ImageStorage<Image>) ImageStorage
+			.getInstance();
 	private int thumbnailWidth;
 	private int thumbnailHeight;
 	private boolean recursiveOption;
@@ -20,18 +21,19 @@ public class ThumbnailCreator {
 	public void createThumbnails(String filePath) throws InterruptedException {
 		long start = System.currentTimeMillis();
 		File[] files = new File(filePath).listFiles();
-		Thread t = new Thread(new FileReader(storage, filePath));
-		Thread t1 = new Thread(new ImageWriterThread(storage, t,
-				thumbnailWidth, thumbnailHeight), "Writer");
-		t.start();
-		t1.start();
+		FileReader reader = new FileReader(storage, filePath);
+		Thread readerThread = new Thread(reader);
+		Thread writerThread = new Thread(new ImageWriter(storage, readerThread,
+				thumbnailWidth, thumbnailHeight));
+		readerThread.start();
+		writerThread.start();
 		for (File file : files) {
 			if (file.isDirectory() && recursiveOption) {
 				createThumbnails(file.toString());
 			}
 		}
-		t.join();
-		t1.join();
+		readerThread.join();
+		writerThread.join();
 		System.out.println(System.currentTimeMillis() - start);
 	}
 }
