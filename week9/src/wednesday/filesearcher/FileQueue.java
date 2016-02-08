@@ -1,11 +1,10 @@
 package wednesday.filesearcher;
 
 import java.io.File;
-import java.nio.file.Path;
-import java.util.concurrent.ConcurrentLinkedDeque;
+import java.util.concurrent.LinkedBlockingDeque;
 
 public class FileQueue {
-	private ConcurrentLinkedDeque<File> ll = new ConcurrentLinkedDeque<>();
+	private LinkedBlockingDeque<File> ll = new LinkedBlockingDeque<>();
 
 	public boolean isEmpty() {
 		return ll.isEmpty();

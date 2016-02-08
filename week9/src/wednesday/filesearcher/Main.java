@@ -7,20 +7,19 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Main {
-	private static final File PATH = new File("/home/boyko/Downloads/");
-	private static final String NEEDLE = "JavaScript";
+	private static final File PATH = new File("/home/boyko");
+	private static final String NEEDLE = "Lalov";
 
 	public static void main(String[] args) {
 		List<MatchDb> matchDb = new ArrayList<MatchDb>();
 		DirectoryQueue dirdb = new DirectoryQueue();
 		FileQueue filedb = new FileQueue();
 		dirdb.addDir(PATH);
-		
-		ExecutorService ex = Executors.newFixedThreadPool(5);
 
-		for (int i = 0; i < 3; i++) {
-			DirectoryWalkerTask task1 = new DirectoryWalkerTask(dirdb, filedb,
-					PATH);
+		ExecutorService ex = Executors.newFixedThreadPool(7);
+
+		for (int i = 0; i < 5; i++) {
+			DirectoryWalkerTask task1 = new DirectoryWalkerTask(dirdb, filedb);
 			ex.execute(task1);
 		}
 		for (int i = 0; i < 2; i++) {

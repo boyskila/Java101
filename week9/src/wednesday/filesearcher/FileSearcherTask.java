@@ -28,44 +28,27 @@ public class FileSearcherTask implements Runnable {
 
 	private void findPattern() throws IOException {
 		while (!db.isEmpty()) {
+			Path path = db.getFile().toPath();
+			String contentType = Files.probeContentType(path);
+			// System.out.println(path + " " + contentType);
 			try {
-				Path path = db.getFile().toPath();
-				String contentType = Files.probeContentType(path);
-				try {
-					System.out.println(contentType);
-					if (contentType.matches("text/plain")
-							|| contentType.matches("application/msword")) {
-
-						try (BufferedReader reader = Files
-								.newBufferedReader(path)) {
-							String line = null;
-							int row = 1;
-							while ((line = reader.readLine()) != null) {
-								if (line.contains(pattern)) {
-									matchDb.add(new MatchDb(pattern, path
-											.toString(), row++));
-								}
-							}
-						} catch (IOException x) {
-							// System.out.println("Cannot open file.");
-						}
-
-						List<String> lines = Files.readAllLines(path);
-						int len = lines.size();
-						for (int i = 0; i < len; i++) {
-							if (lines.get(i).contains(pattern)) {
-								matchDb.add(new MatchDb(pattern, path
-										.toString(), i));
-							}
-
+				// if (contentType.matches("text/plain")) {
+				try (BufferedReader reader = Files.newBufferedReader(path)) {
+					String line = null;
+					int row = 1;
+					while ((line = reader.readLine()) != null) {
+						if (line.contains(pattern)) {
+							matchDb.add(new MatchDb(pattern, path.toString(),
+									row++));
 						}
 					}
-				} catch (Exception e) {
-
+				} catch (IOException x) {
 				}
-
 			} catch (Exception e) {
+
 			}
+
+			// }
 		}
 	}
 }

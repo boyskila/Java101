@@ -2,10 +2,11 @@ package wednesday.filesearcher;
 
 import java.io.File;
 import java.util.concurrent.ConcurrentLinkedDeque;
+import java.util.concurrent.LinkedBlockingDeque;
 
 public class DirectoryQueue {
 
-	private ConcurrentLinkedDeque<File> ll = new ConcurrentLinkedDeque<>();
+	private LinkedBlockingDeque<File> ll = new LinkedBlockingDeque<>();
 
 	public void addDir(File file) {
 		ll.add(file);

@@ -5,11 +5,9 @@ import java.io.File;
 public class DirectoryWalkerTask implements Runnable {
 	private DirectoryQueue dirdb;
 	private FileQueue filedb;
-	private File path;
 
-	public DirectoryWalkerTask(DirectoryQueue dirdb, FileQueue filedb, File path) {
+	public DirectoryWalkerTask(DirectoryQueue dirdb, FileQueue filedb) {
 		this.filedb = filedb;
-		this.path = path;
 		this.dirdb = dirdb;
 	}
 
