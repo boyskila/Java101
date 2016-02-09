@@ -1,4 +1,4 @@
-package wednesday.webcrawer;
+package monday.webcrawler;
 
 import java.io.IOException;
 

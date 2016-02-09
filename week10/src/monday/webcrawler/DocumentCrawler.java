@@ -1,4 +1,4 @@
-package wednesday.webcrawer;
+package monday.webcrawler;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -43,7 +43,6 @@ public class DocumentCrawler {
 		return webContent == null ? "" : webContent.text();
 	}
 
-	// send links
 	public List<String> getLinks() {
 		return links;
 	}

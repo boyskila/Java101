@@ -1,4 +1,4 @@
-package wednesday.webcrawer;
+package monday.webcrawler;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -22,9 +22,7 @@ public class MyDocumentCrawler {
 
 	public void getAllLinks(String url2, String content)
 			throws MalformedURLException {
-
 		try {
-
 			String regex = "<a.*?href=\"((?!javascript).*?)\".*?>";
 			Pattern pattern = Pattern.compile(regex);
 			Matcher matcher = pattern.matcher(content);
@@ -66,7 +64,6 @@ public class MyDocumentCrawler {
 		return builder.toString();
 	}
 
-	// send links
 	public List<String> getLinks() {
 		return links;
 	}
