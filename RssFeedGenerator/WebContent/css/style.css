@@ -1,0 +1,21 @@
+
+.pagination {
+	padding-left: 50px;
+}
+
+.title {
+	border: 1px solid red;
+}
+
+h1 {
+	color: red;
+	padding-left: 100px;
+}
+
+div {
+	padding-left: 50px;
+}
+
+hr {
+	border-bottom: 2px solid black;
+}

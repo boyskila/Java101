@@ -16,23 +16,23 @@ public class Main {
 		// ContentDownloader cd = new ContentDownloader(urlStorage,
 		// htmlStorage);
 		Thread contentDownloader2 = new Thread(cd);
-		//contentDownloader2.start();
+		contentDownloader2.start();
 		Thread contentDownloader3 = new Thread(cd);
-		//contentDownloader3.start();
+		contentDownloader3.start();
 		Thread urlExtractor = new Thread(new URLExtractor(htmlStorage,
 				urlStorage, DOMAIN));
 		Thread urlExtractor2 = new Thread(new URLExtractor(htmlStorage,
 				urlStorage, DOMAIN));
 		urlExtractor.start();
-		//urlExtractor2.start();
-		// contentDownloader.join();
-		// urlExtractor.join();
-		// try {
-		// contentDownloader.join();
-		// } catch (InterruptedException e) {
-		// // TODO Auto-generated catch block
-		// e.printStackTrace();
-		// }
-		// System.out.println(htmlStorage.getStorage());
+		urlExtractor2.start();
+		 contentDownloader.join();
+		 urlExtractor.join();
+		 try {
+		 contentDownloader.join();
+		 } catch (InterruptedException e) {
+		 // TODO Auto-generated catch block
+		 e.printStackTrace();
+		 }
+		 System.out.println(htmlStorage.getStorage());
 	}
 }
