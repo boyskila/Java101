@@ -11843,3 +11843,61 @@ The release after Mars (4.5) will no longer support the deprecated usage!
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2016-02-18 07:59:39.034
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2016-02-18 10:00:47.376 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160203-1000
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /home/boyko/Java101 -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2016-02-18 10:01:07.295
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.demandware.studio.server' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2016-02-18 10:01:07.322
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.demandware.studio.urlhandler' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY com.demandware.studio.urlhandler 1 0 2016-02-18 10:01:07.382
+!MESSAGE HTTP protocol handler server socket started.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-02-18 10:01:09.626
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-02-18 10:01:09.631
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2016-02-19 17:14:55.713 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160203-1000
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2016-02-19 17:15:13.278
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.demandware.studio.server' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2016-02-19 17:15:13.320
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.demandware.studio.urlhandler' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY com.demandware.studio.urlhandler 1 0 2016-02-19 17:15:13.381
+!MESSAGE HTTP protocol handler server socket started.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-02-19 17:15:20.637
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-02-19 17:15:20.641
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-02-19 17:15:22.068
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-02-19 17:15:22.070
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
