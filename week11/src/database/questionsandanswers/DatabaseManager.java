@@ -21,9 +21,10 @@ public class DatabaseManager {
 
 	public void loadQuestions(Player player) {
 		try {
+			printRanking();
 			preparedStatment = connection.prepareStatement(QueryConstants.RANDOM_QUESTIONS);
 			resultSet = preparedStatment.executeQuery();
-			loadQuestions(player, resultSet);
+			showQuestions(player);
 			// compare player best result and player current result.Insert
 			// result in the database
 			updateResult(player);
@@ -36,7 +37,7 @@ public class DatabaseManager {
 		}
 	}
 
-	private void loadQuestions(Player player, ResultSet resultset) throws SQLException {
+	private void showQuestions(Player player) throws SQLException {
 		while (resultSet.next()) {
 			System.out.println(resultSet.getString(2));
 			// show answer options
@@ -47,18 +48,18 @@ public class DatabaseManager {
 			while (answerIndex < 3 || answerIndex > 7) {
 				System.out.println("select answer: ");
 				// option - a,b,c,d or e
-				String option = sc.nextLine();
+				String option = sc.next();
 				try {
 					answerIndex = QueryConstants.ANSWERS.get(option);
 				} catch (Exception e) {
 					System.out.println("No such option: " + option + "\n");
 				}
 			}
-			checkAnswer(resultset, player, answerIndex);
+			checkAnswer(player, answerIndex);
 		}
 	}
 
-	private void checkAnswer(ResultSet resultSet, Player player, int answerIndex) throws SQLException {
+	private void checkAnswer(Player player, int answerIndex) throws SQLException {
 		// get participant answer
 		String participantAnswer = resultSet.getString(answerIndex);
 		// get correct answer from database
@@ -93,8 +94,9 @@ public class DatabaseManager {
 		System.out.println("====================================");
 		preparedStatment = connection.prepareStatement(QueryConstants.GET_ALL_PARTICIPANTS);
 		resultSet = preparedStatment.executeQuery();
+		int count = 1;
 		while (resultSet.next()) {
-			System.out.println("Name " + resultSet.getString(2) + " bestResult: " + resultSet.getInt(4));
+			System.out.println(count++ + " place: " + resultSet.getString(2) + " bestResult: " + resultSet.getInt(4));
 		}
 	}
 

@@ -8,7 +8,7 @@ public class QueryConstants {
 	protected final static String RANDOM_QUESTIONS = "SELECT * FROM questions ORDER BY RAND() LIMIT 10";
 	protected static final String REGISTER_PARTICIPANT = "INSERT INTO participant (name, age, points) VALUES (?, ?, ?)";
 	protected static final String UPDATE_RESULT = "UPDATE participant SET points=? WHERE name= ? and age= ?";
-	public static final String GET_ALL_PARTICIPANTS = "SELECT * FROM participant;";
+	public static final String GET_ALL_PARTICIPANTS = "SELECT * FROM participant ORDER BY points DESC;";
 	protected static final Map<String, Integer> ANSWERS = new HashMap<String, Integer>() {
 		protected static final long serialVersionUID = 1L;
 		{

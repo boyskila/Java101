@@ -8,7 +8,7 @@ public class DataBase {
 
 	private final static String URL = "jdbc:mysql://localhost:3306/IQTest";
 	private final static String USER = "root";
-	private final static String PASSWORD = "******";
+	private final static String PASSWORD = "pla6il0t0";
 	private static DataBase instance = null;
 	private static Connection connection = null;
 
@@ -22,7 +22,7 @@ public class DataBase {
 				DriverManager.registerDriver(new com.mysql.jdbc.Driver());
 				connection = DriverManager.getConnection(URL, USER, PASSWORD);
 			} catch (SQLException e) {
-				System.err.println("Message: " + e.getMessage());
+				e.printStackTrace();
 			}
 			return new DataBase();
 		}

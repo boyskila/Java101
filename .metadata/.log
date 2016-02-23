@@ -12008,3 +12008,9 @@ The release after Mars (4.5) will no longer support the deprecated usage!
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2016-02-23 10:14:16.404
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.demandware.studio.serversupport 4 0 2016-02-23 12:40:06.147
+!MESSAGE Could not delete configuration file for 'Drone-Delivery-System'
+
+!ENTRY com.demandware.studio.serversupport 4 0 2016-02-23 13:01:19.306
+!MESSAGE Could not delete configuration file for 'Drone-Delivery-System'
