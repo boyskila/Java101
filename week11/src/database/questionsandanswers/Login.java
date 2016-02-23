@@ -52,8 +52,10 @@ public class Login {
 			preparedStatment.execute();
 
 		} catch (SQLException e) {
-			new ResourceKiller(preparedStatment, resultSet, connection);
-			e.printStackTrace();
+			new ResourceKiller(sc, preparedStatment, resultSet, connection);
+			System.err.println("Message: " + e.getMessage());
+		} finally {
+			sc.close();
 		}
 		// return brand new player with best result = 0
 		return new Player(name, age, 0);

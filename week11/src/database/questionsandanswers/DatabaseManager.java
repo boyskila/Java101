@@ -23,51 +23,58 @@ public class DatabaseManager {
 		try {
 			preparedStatment = connection.prepareStatement(QueryConstants.RANDOM_QUESTIONS);
 			resultSet = preparedStatment.executeQuery();
-			while (resultSet.next()) {
-				System.out.println(resultSet.getString(2));
-				// show answer options
-				answerOptions(resultSet);
-				System.out.println("Select option");
-				int answerIndex = 0;
-				// loop until selected option not match a, b, c, d, e
-				while (answerIndex < 3 || answerIndex > 7) {
-					System.out.println("select answer: ");
-					// option - a,b,c,d or e
-					String option = sc.nextLine();
-					try {
-						answerIndex = QueryConstants.ANSWERS.get(option);
-					} catch (Exception e) {
-						System.out.println("No such option: " + option + "\n");
-					}
-				}
-				// get participant answer
-				String participantAnswer = resultSet.getString(answerIndex);
-				// get correct answer from database
-				String correctAnswer = resultSet.getString(8);
-				// check
-				if (participantAnswer.equals(correctAnswer)) {
-					System.out.println("Correct");
-					player.addPoints(resultSet.getInt(10));
-				} else {
-					System.out.println("====================================");
-					System.out.println("NOT correct");
-					System.out.println("Correct answer is: " + correctAnswer);
-					System.out.println("Explanation: " + resultSet.getString(9));
-					System.out.println("====================================");
-				}
-
-			}
+			loadQuestions(player, resultSet);
 			// compare player best result and player current result.Insert
 			// result in the database
 			updateResult(player);
 			System.out.printf("Test finished! %s you have %d points", player.getName(), player.getCurrentPoints());
 			printRanking();
 		} catch (SQLException e) {
-			e.printStackTrace();
+			System.err.println("Message: " + e.getMessage());
 		} finally {
-			sc.close();
-			new ResourceKiller(preparedStatment, resultSet, connection);
+			new ResourceKiller(sc, preparedStatment, resultSet, connection);
 		}
+	}
+
+	private void loadQuestions(Player player, ResultSet resultset) throws SQLException {
+		while (resultSet.next()) {
+			System.out.println(resultSet.getString(2));
+			// show answer options
+			answerOptions(resultSet);
+			System.out.println("Select option");
+			int answerIndex = 0;
+			// loop until selected option not match a, b, c, d, e
+			while (answerIndex < 3 || answerIndex > 7) {
+				System.out.println("select answer: ");
+				// option - a,b,c,d or e
+				String option = sc.nextLine();
+				try {
+					answerIndex = QueryConstants.ANSWERS.get(option);
+				} catch (Exception e) {
+					System.out.println("No such option: " + option + "\n");
+				}
+			}
+			checkAnswer(resultset, player, answerIndex);
+		}
+	}
+
+	private void checkAnswer(ResultSet resultSet, Player player, int answerIndex) throws SQLException {
+		// get participant answer
+		String participantAnswer = resultSet.getString(answerIndex);
+		// get correct answer from database
+		String correctAnswer = resultSet.getString(8);
+		// check
+		if (participantAnswer.equals(correctAnswer)) {
+			System.out.println("Correct");
+			player.addPoints(resultSet.getInt(10));
+		} else {
+			System.out.println("====================================");
+			System.out.println("NOT correct");
+			System.out.println("Correct answer is: " + correctAnswer);
+			System.out.println("Explanation: " + resultSet.getString(9));
+			System.out.println("====================================");
+		}
+
 	}
 
 	private void updateResult(Player player) throws SQLException {
@@ -91,7 +98,7 @@ public class DatabaseManager {
 		}
 	}
 
-	private static void answerOptions(ResultSet rs) throws SQLException {
+	private void answerOptions(ResultSet rs) throws SQLException {
 		// in assci 97=a,98=b,99=c.....print answer options
 		for (int i = 97, a = 3; i <= 101; i++, a++) {
 			if (rs.getString(a) != null) {

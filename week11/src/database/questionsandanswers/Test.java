@@ -10,12 +10,11 @@ public class Test {
 	}
 
 	public void start() {
-		Player p = null;
 		try {
-			p = new Login().loginOrRegister();
+			Player player = new Login().loginOrRegister();
+			dbManager.loadQuestions(player);
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		dbManager.loadQuestions(p);
 	}
 }

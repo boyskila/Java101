@@ -22,7 +22,7 @@ public class DataBase {
 				DriverManager.registerDriver(new com.mysql.jdbc.Driver());
 				connection = DriverManager.getConnection(URL, USER, PASSWORD);
 			} catch (SQLException e) {
-				e.printStackTrace();
+				System.err.println("Message: " + e.getMessage());
 			}
 			return new DataBase();
 		}
