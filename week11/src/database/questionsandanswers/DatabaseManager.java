@@ -50,7 +50,7 @@ public class DatabaseManager {
 				// option - a,b,c,d or e
 				String option = sc.next();
 				try {
-					answerIndex = QueryConstants.ANSWERS.get(option);
+					answerIndex = AnswerOptions.ANSWERS.get(option);
 				} catch (Exception e) {
 					System.out.println("No such option: " + option + "\n");
 				}
