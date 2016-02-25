@@ -1,22 +1,22 @@
-package database.questionsandanswers;
+package database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DataBase {
+public class DatabaseConnection {
 
 	private final static String URL = "jdbc:mysql://localhost:3306/IQTest";
 	private final static String USER = "root";
-	private final static String PASSWORD = "******";
-	private static DataBase instance = null;
+	private final static String PASSWORD = "pla6il0t0";
+	private static DatabaseConnection instance = null;
 	private static Connection connection = null;
 
-	private DataBase() {
+	private DatabaseConnection() {
 
 	}
 
-	public static DataBase getInstance() {
+	public static DatabaseConnection getInstance() {
 		if (instance == null) {
 			try {
 				DriverManager.registerDriver(new com.mysql.jdbc.Driver());
@@ -24,7 +24,7 @@ public class DataBase {
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}
-			return new DataBase();
+			return new DatabaseConnection();
 		}
 		return instance;
 	}
