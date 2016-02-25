@@ -1,7 +1,5 @@
 package friday.vattaxcalculator.model;
 
-import friday.vattaxcalculator.exceptions.NotSupportedCountryException;
-
 public final class Country {
 	private final String mCountryName;
 	private final int mVatRate;

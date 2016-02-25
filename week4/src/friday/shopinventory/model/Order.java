@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import friday.shopinventory.database.Inventory;
-import friday.shopinventory.database.ProductDataBase;
-import friday.shopinventory.database.Storage;
 import friday.shopinventory.exceptions.ProductNotFoundException;
 import friday.shopinventory.exceptions.ProductOutOfStockException;
 

@@ -10,6 +10,7 @@ public class SubList<T> extends AbstractList<T> {
 	private final int to;
 	private int size;
 
+	@SuppressWarnings("unchecked")
 	public SubList(Object[] original, int from, int to) {
 		List<T> l = (List<T>) Arrays.asList(original);
 		this.original = l;

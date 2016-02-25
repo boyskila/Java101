@@ -2,7 +2,6 @@ package wednesday.uniquestacklist;
 
 import wednesday.doublylinkedlist.DoublyLinkedList;
 import wednesday.stack.exceptions.DuplicateValueException;
-import wednesday.stack.interfaces.StackInterface;
 import wednesday.stacklist.StackList;
 
 public class UniqueStackList<T> {

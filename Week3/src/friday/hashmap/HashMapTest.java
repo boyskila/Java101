@@ -51,7 +51,7 @@ public class HashMapTest {
 			String string = it.next();
 			l.add(string);
 		}
-		int c = 0;
+
 		System.out.println(myHashMap.get("Vidin"));
 		System.out.println(myHashMap.size());
 		System.out.println(l);
@@ -59,7 +59,7 @@ public class HashMapTest {
 		// myHashMap.remove(l.get(c));
 		// c++;
 		// }
-		 
+
 		System.out.println(myHashMap);
 		// System.out.println(myHashMap.entrySet());
 		for (String string : myHashMap.keySet()) {

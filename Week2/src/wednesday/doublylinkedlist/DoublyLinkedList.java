@@ -3,8 +3,6 @@ package wednesday.doublylinkedlist;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import wednesday.doublylinkedlist.DoublyLinkedList.Node;
-
 public class DoublyLinkedList<T> implements DoublyLinkeListInterface<T>, Iterable<T> {
 	public class Node {
 		private Node next;

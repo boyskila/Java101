@@ -3,7 +3,6 @@ package friday.calculator.start;
 import java.util.Scanner;
 
 import friday.calculator.parser.Calculator;
-import friday.calculator.parser.PostfixConvertor;
 
 public class Start {
 

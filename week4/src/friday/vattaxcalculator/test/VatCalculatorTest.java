@@ -13,7 +13,7 @@ public class VatCalculatorTest {
 		CountryManager countryManager = CountryManager.getInstance();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Press ENTER to check list countries codes");
-		String enter = sc.nextLine();
+		sc.nextLine();
 		for (Entry<Integer, Country> entry : countryManager) {
 			System.out.println(entry.getValue().getCountryName() + " => " + entry.getKey());
 		}
@@ -34,5 +34,6 @@ public class VatCalculatorTest {
 		} catch (Exception e) {
 			System.err.println(e.getMessage());
 		}
+		sc.close();
 	}
 }

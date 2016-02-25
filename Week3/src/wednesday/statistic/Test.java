@@ -30,6 +30,7 @@ public class Test {
 		System.out.println("  \"MODE\" is: " + storage.getMode());
 		// Range between smallest and largest number
 		System.out.println("  \"RANGE\" is: " + storage.getRange());
+		sc.close();
 	}
 
 }

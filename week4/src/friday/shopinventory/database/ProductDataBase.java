@@ -2,8 +2,8 @@ package friday.shopinventory.database;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import friday.shopinventory.model.Product;
-import friday.vattaxcalculator.database.CountryManager;
 
 public class ProductDataBase {
 	private List<Product> products;

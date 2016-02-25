@@ -19,6 +19,7 @@ public class FileReader {
 		while (inFile1.hasNext()) {
 			sb.append(inFile1.nextLine());
 		}
+		inFile1.close();
 		return sb.toString().split(",");
 	}
 
@@ -44,17 +45,14 @@ public class FileReader {
 				String[] nomera = readFile();
 				// List<String> l = Arrays.asList(nomera);
 				if (f.getName().length() > 9) {
-					name = f.getName().substring(f.getName().length() - 7,
-							f.getName().length() - 4);
-					name2 = f.getName().substring(f.getName().length() - 8,
-							f.getName().length() - 4);
+					name = f.getName().substring(f.getName().length() - 7, f.getName().length() - 4);
+					name2 = f.getName().substring(f.getName().length() - 8, f.getName().length() - 4);
 
 				}
 				for (int i = 0; i < nomera.length; i++) {
 					if ((name.equals(nomera[i]) || name2.equals(nomera[i]))) {
 						if (!con.contains(nomera[i])) {
-							Files.copy(f.toPath(),
-									new File("pics/" + f.getName()).toPath());
+							Files.copy(f.toPath(), new File("pics/" + f.getName()).toPath());
 							con.add(name);
 							con.add(name2);
 						}
