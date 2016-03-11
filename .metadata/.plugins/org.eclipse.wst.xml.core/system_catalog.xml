@@ -187,5 +187,5 @@
   <system systemId="http://www.w3.org/2001/xml.xsd" uri="jar:file:/home/boyko/java/eclipse/plugins/org.eclipse.xsd_2.11.0.v20160208-0841.jar!/cache/www.w3.org/2001/xml.xsd"/>
   <uri name="http://www.w3.org/2001/XMLSchema" uri="jar:file:/home/boyko/java/eclipse/plugins/org.eclipse.xsd_2.11.0.v20160208-0841.jar!/cache/www.w3.org/2001/XMLSchema.xsd"/>
   <uri id="org.w3c.xinclude" name="http://www.w3.org/2001/XInclude" uri="jar:file:/home/boyko/java/eclipse/plugins/org.eclipse.wst.xsl.core_1.1.301.v201405151730.jar!/xslt-schemas/xinclude.xsd"/>
-  <uri name="http://www.demandware.com/xml/form/2008-04-19" uri="file:/home/boyko/java/eclipse/plugins/com.demandware.studio.wst.extension_16.1.3.v201601282024/schemas/form.xsd"/>
+  <uri name="http://www.demandware.com/xml/form/2008-04-19" uri="file:/home/boyko/java/eclipse/plugins/com.demandware.studio.wst.extension_16.2.0.v201602242223/schemas/form.xsd"/>
 </catalog>
