@@ -20,8 +20,7 @@ public class MyLogger {
 			logger.addHandler(fh);
 			SimpleFormatter formatter = new SimpleFormatter();
 			fh.setFormatter(formatter);
-			logger.info(task.getProduct().getName() + " Delivered at location " + task.getLocation() + " "
-					+ task.getProduct().getQuantity());
+			logger.info(task.getProduct() + " Delivered at location " + task.getLocation());
 
 		} catch (SecurityException | IOException message) {
 			System.err.println(message);

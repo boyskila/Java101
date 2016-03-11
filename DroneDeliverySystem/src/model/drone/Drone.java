@@ -14,7 +14,7 @@ public class Drone extends Thread {
 	public Drone(DroneSpecifications specs) {
 		this.specs = specs;
 		battery = new Battery(specs.getBatterySpecifications());
-		wharehouse = new MatrixLocation(1, 1);
+		wharehouse = new MatrixLocation(42, 42);
 	}
 
 	public void asignTask(Task task) {
@@ -34,11 +34,15 @@ public class Drone extends Thread {
 	}
 
 	private void dischargeBattery() {
+		// discharge battery using formula (single battery unit/one distance
+		// unit)
 		int distance = taskToDo.getLocation().calculateDistance(wharehouse);
 		System.out.println("Distance" + distance);
-		for (int i = 0; i < distance; i++) {
-			battery.discharge();
-		}
+		battery.discharge(distance);
+	}
+
+	public void setWharehouseLocation(Location warehouse) {
+		this.wharehouse = warehouse;
 	}
 
 	@Override

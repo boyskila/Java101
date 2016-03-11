@@ -24,8 +24,8 @@ public class Battery {
 		new BatteryCharger(this).start();
 	}
 
-	public void discharge() {
-		level -= batterySpecs.getDischargingRate();
+	public void discharge(int distance) {
+		level -= (batterySpecs.getDischargingRate() * distance);
 	}
 
 	public void addUnit() {

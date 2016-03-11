@@ -17807,3 +17807,243 @@ org.eclipse.core.runtime.CoreException: Launch configuration DroneImpl reference
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
 2016-02-25 09:34:16,597 [Worker-84] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
 2016-02-25 09:34:28,631 [Worker-81] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2016-02-26 19:37:46,815 [Worker-38] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DroneDeliverySystem:DroneDeliverySystem:0.0.1-SNAPSHOT @ /home/boyko/Drone-Delivery-System/DroneSupply/pom.xml.
+2016-02-26 19:37:47,883 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:37:47,884 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 19:37:47,887 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:37:47,887 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 19:37:48,339 [Worker-39] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DroneDeliverySystem:DroneDeliverySystem:0.0.1-SNAPSHOT @ /home/boyko/Drone-Delivery-System/DroneSupply/pom.xml.
+2016-02-26 19:37:49,476 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:37:49,476 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 19:37:49,479 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:37:49,480 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 19:47:09,264 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:47:09,265 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 19:47:09,266 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:47:09,267 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 19:48:05,002 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:48:05,003 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 19:48:05,004 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:48:05,005 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 19:51:15,495 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:51:15,496 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 19:51:15,497 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:51:15,498 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 19:51:16,739 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:51:16,740 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 19:51:16,741 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:51:16,742 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 19:51:21,961 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:51:21,962 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 19:51:21,963 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:51:21,964 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 19:51:23,017 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:51:23,017 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 19:51:23,019 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:51:23,020 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 19:53:04,921 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:53:04,921 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 19:53:04,926 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:53:04,927 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 19:54:25,089 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:54:25,090 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 19:54:25,091 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 19:54:25,092 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 20:40:21,211 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 20:40:21,212 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 20:40:21,214 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 20:40:21,214 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 20:43:00,729 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 20:43:00,729 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 20:43:00,732 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 20:43:00,733 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 20:43:51,474 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 20:43:51,475 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 20:43:51,479 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 20:43:51,479 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 20:51:20,284 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 20:51:20,285 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 20:51:20,287 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 20:51:20,288 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 20:51:44,221 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 20:51:44,222 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 20:51:44,223 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 20:51:44,223 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:01:05,158 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:01:05,158 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:01:05,165 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:01:05,166 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:05:07,212 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:05:07,213 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:05:07,217 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:05:07,218 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:10:46,162 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:10:46,163 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:10:46,166 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:10:46,167 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:12:18,066 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:12:18,066 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:12:18,067 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:12:18,068 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:17:37,934 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:17:37,934 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:17:37,935 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:17:37,936 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:18:17,638 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:18:17,639 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:18:17,640 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:18:17,640 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:22:46,628 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:22:46,629 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:22:46,630 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:22:46,630 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:41:40,963 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:41:40,963 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:41:40,964 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:41:40,965 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:42:20,553 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:42:20,554 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:42:20,555 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:42:20,556 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:44:47,530 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:44:47,531 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:44:47,532 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:44:47,533 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:44:57,282 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:44:57,283 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:44:57,284 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:44:57,284 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:46:23,254 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:46:23,255 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:46:23,256 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:46:23,257 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:47:08,484 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:47:08,485 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:47:08,486 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:47:08,486 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:47:33,245 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:47:33,245 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:47:33,246 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:47:33,247 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:47:41,496 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:47:41,497 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:47:41,502 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:47:41,502 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:47:59,309 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:47:59,310 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:47:59,311 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:47:59,311 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:48:08,724 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:48:08,725 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:48:08,727 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:48:08,728 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-26 21:49:41,518 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:49:41,518 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-26 21:49:41,519 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 21:49:41,520 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 08:37:47,806 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:37:47,807 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 08:37:47,808 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:37:47,809 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 08:40:15,892 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:40:15,893 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 08:40:15,893 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:40:15,894 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 08:40:27,768 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:40:27,769 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 08:40:27,773 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:40:27,773 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 08:49:13,153 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:49:13,154 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 08:49:13,158 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:49:13,159 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 08:50:14,575 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:50:14,576 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 08:50:14,577 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:50:14,577 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 08:50:51,136 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:50:51,137 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 08:50:51,138 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:50:51,138 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 08:51:26,029 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:51:26,030 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 08:51:26,031 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:51:26,031 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 08:51:43,756 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:51:43,756 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 08:51:43,760 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:51:43,761 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 08:53:06,346 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:53:06,346 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 08:53:06,348 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:53:06,348 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 08:57:29,863 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:57:29,864 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 08:57:29,865 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:57:29,866 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 08:59:04,604 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:59:04,605 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 08:59:04,605 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 08:59:04,606 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 09:02:45,040 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:02:45,041 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 09:02:45,042 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:02:45,042 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 09:04:32,601 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:04:32,602 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 09:04:32,603 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:04:32,603 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 09:08:54,378 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:08:54,378 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 09:08:54,380 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:08:54,380 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 09:09:48,511 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:09:48,512 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 09:09:48,513 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:09:48,513 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 09:12:13,081 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:12:13,081 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 09:12:13,083 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:12:13,083 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 09:12:57,341 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:12:57,341 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 09:12:57,342 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:12:57,342 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 09:14:04,361 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:14:04,362 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 09:14:04,362 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:14:04,362 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-27 09:17:54,808 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:17:54,809 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/main/resources
+2016-02-27 09:17:54,809 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 09:17:54,810 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/boyko/Drone-Delivery-System/DroneSupply/src/test/resources
+2016-02-29 10:35:48,555 [Worker-12] ERROR o.e.m.c.i.p.r.ProjectRegistryRefreshJob - Preference node "org.eclipse.m2e.core" has been removed.
+java.lang.IllegalStateException: Preference node "org.eclipse.m2e.core" has been removed.
+	at org.eclipse.core.internal.preferences.EclipsePreferences.checkRemoved(EclipsePreferences.java:200) ~[org.eclipse.equinox.preferences_3.5.300.v20150408-1437.jar:na]
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:653) ~[org.eclipse.equinox.preferences_3.5.300.v20150408-1437.jar:na]
+	at org.eclipse.core.internal.preferences.EclipsePreferences.convertFromProperties(EclipsePreferences.java:293) ~[org.eclipse.equinox.preferences_3.5.300.v20150408-1437.jar:na]
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:509) ~[na:na]
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:492) ~[na:na]
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:409) ~[org.eclipse.equinox.preferences_3.5.300.v20150408-1437.jar:na]
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:534) ~[org.eclipse.equinox.preferences_3.5.300.v20150408-1437.jar:na]
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:668) ~[org.eclipse.equinox.preferences_3.5.300.v20150408-1437.jar:na]
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:812) ~[org.eclipse.equinox.preferences_3.5.300.v20150408-1437.jar:na]
+	at org.eclipse.core.resources.ProjectScope.getNode(ProjectScope.java:68) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.ResolverConfigurationIO.readResolverConfiguration(ResolverConfigurationIO.java:89) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readMavenProjectFacade(ProjectRegistryManager.java:696) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:397) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1$1.call(ProjectRegistryRefreshJob.java:89) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1$1.call(ProjectRegistryRefreshJob.java:1) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:87) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]

@@ -14,8 +14,8 @@ public class MatrixLocation implements Location {
 
 	@Override
 	public int calculateDistance(Location location) {
-		int x = (int) Math.pow((this.x - location.getX()), 2);
-		int y = (int) Math.pow((this.y - location.getY()), 2);
+		int x = (int) Math.pow(Math.abs(this.x - location.getX()), 2);
+		int y = (int) Math.pow(Math.abs(this.y - location.getY()), 2);
 		return (int) Math.sqrt(x + y);
 	}
 

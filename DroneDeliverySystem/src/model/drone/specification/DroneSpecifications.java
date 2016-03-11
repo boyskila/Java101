@@ -32,7 +32,11 @@ public abstract class DroneSpecifications {
 
 	@Override
 	public String toString() {
-		return "DroneSpecifications [weightCapacity=" + weightCapacity + "loadingRate= " + LOADING_RATE
+		return "DroneSpecifications [weightCapacity=" + getWeightCapacity() + "loadingRate= " + LOADING_RATE
 				+ "unLoadingRate= " + UNLOADING_RATE + "]";
+	}
+
+	public int getWeightCapacity() {
+		return weightCapacity;
 	}
 }

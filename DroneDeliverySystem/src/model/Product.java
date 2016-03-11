@@ -1,33 +1,46 @@
 package model;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import database.DatabaseConnection;
+
 public class Product {
-	private int id;
+	private static final String QUERY = "select weight from products where name=?";
 	private String name;
 	private float weight;
 	private int quantity;
 
-	public Product(int id, String name, float weight, int quantity) {
-		super();
-		this.id = id;
+	public Product(String name, float weight, int quantity) {
 		this.name = name;
 		this.weight = weight;
 		this.quantity = quantity;
-	}
-
-	@Override
-	public String toString() {
-		return "Product [id=" + id + ", name=" + name + ", weight=" + weight + "quantity= " + quantity + "]";
 	}
 
 	public String getName() {
 		return name;
 	}
 
-	public int getQuantity() {
-		return quantity;
+	public float getWeight() {
+		// ask db for product weight
+		DatabaseConnection db = DatabaseConnection.getInstance();
+		Connection conn = db.getConnection();
+		try {
+			PreparedStatement st = conn.prepareStatement(QUERY);
+			st.setString(1, name);
+			ResultSet set = st.executeQuery();
+			set.next();
+			weight = set.getFloat("weight");
+		} catch (SQLException e) {
+			System.err.println(e.getMessage());
+		}
+		return weight;
 	}
 
-	public void setQuantity(int quantity) {
-		this.quantity = quantity;
+	@Override
+	public String toString() {
+		return "Product [name=" + name + ", weight=" + weight + "]";
 	}
 }
