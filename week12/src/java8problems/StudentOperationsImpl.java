@@ -8,17 +8,16 @@ import java8problems.data.Student;
 
 public class StudentOperationsImpl implements StudentOperations {
 
-	 List<Student> students;
+	List<Student> students;
 
-	    public StudentOperationsImpl(List<Student> students) {
-	        this.students = students;
-	    }
+	public StudentOperationsImpl(List<Student> students) {
+		this.students = students;
+	}
 
-	    @Override
-	    public double getAverageMark() {
-	        return students.stream().mapToDouble(s -> s.getGrade()).average().getAsDouble();
-	    }
-
+	@Override
+	public double getAverageMark() {
+		return students.stream().mapToDouble(s -> s.getGrade()).average().getAsDouble();
+	}
 
 	@Override
 	public List<Student> getAllPassing() {

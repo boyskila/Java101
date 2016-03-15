@@ -5,7 +5,6 @@ package com.hackbulgaria.corejava101;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
