@@ -4,8 +4,12 @@ public class StudentGroup {
 	private static int freePlaces;
 
 	public StudentGroup() {
+		initGroup();
+	}
+	
+	public void initGroup(){
 		students = new Student[5];
-		freePlaces = 5;
+		freePlaces = 5;		
 	}
 
 	public StudentGroup(String subject) {
@@ -22,9 +26,8 @@ public class StudentGroup {
 		}
 	}
 
-	public void emptyGroup() {
-		students = new Student[5];
-		freePlaces = 5;
+	public void emptyGroup()  {
+		initGroup();
 	}
 
 	public String theBestStudent() {
@@ -32,8 +35,10 @@ public class StudentGroup {
 		String bestStudentName = null;
 
 		for (Student student : students) {
-			if (student.getGrade() > higherGrade) {
-				higherGrade = student.getGrade();
+			
+			double studentGrade = student.getGrade();
+			if (studentGrade > higherGrade) {
+				higherGrade = studentGrade;
 				bestStudentName = student.getName();
 			}
 		}

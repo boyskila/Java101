@@ -1,7 +1,7 @@
 
 public class College {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws CloneNotSupportedException {
 		Student st1 = new Student("Ilianka", "C#", 25);
 		Student st2 = new Student("Deni", "Java", 22);
 		Student st3 = new Student("Ilian", "Js", 25);
@@ -23,9 +23,10 @@ public class College {
 		group1.addStudent(st4);
 		group1.addStudent(st5);
 		//test group capacity
+		group1.emptyGroup();
 		group1.addStudent(st1);
 		
-		System.out.println(group1.theBestStudent());
+		System.out.println(group1);
 
 	}
 
